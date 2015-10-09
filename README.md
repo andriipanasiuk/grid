@@ -20,5 +20,6 @@ After that source code and app UX will be checked and app will be published to P
 
 ###What can be done
 * add feature to change color of grid
+* ... do you have any proposals?)
 
 
