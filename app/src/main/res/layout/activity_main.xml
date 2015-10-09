@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/main_activity_padding" >
+
+    <Button
+        android:id="@+id/main_togglegrid_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/main_toggle_button_padding"
+        android:paddingRight="@dimen/main_toggle_button_padding"
+        android:text="@string/main_showgrid_button"
+        android:textColor="@color/main_text_color"
+        android:textSize="@dimen/main_textsize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/main_activity_margin_between_items"
+        android:text="@string/main_gridsize_textview"
+        android:textColor="@color/main_text_color"
+        android:textSize="@dimen/main_textsize" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/main_gridstepvalue_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:digits="0123456789."
+            android:inputType="number"
+            android:minWidth="@dimen/main_minwidth_edittext_spinner"
+            android:textColor="@color/main_text_color"
+            android:textSize="@dimen/main_textsize" />
+
+        <Spinner
+            android:id="@+id/main_gridstepunits_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/main_minwidth_edittext_spinner"
+            android:textColor="@color/main_text_color"
+            android:textSize="@dimen/main_textsize"
+            tools:listitem="@android:layout/simple_spinner_item" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/main_activity_margin_between_items"
+        android:text="@string/main_opacity_textview"
+        android:textColor="@color/main_text_color"
+        android:textSize="@dimen/main_textsize" />
+
+    <SeekBar
+        android:id="@+id/main_opacity_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="255" />
+
+    <CheckBox
+        android:id="@+id/main_drag_checkbox"
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/main_textsize" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/main_activity_margin_between_items"
+        android:text="@string/main_draganddrop_textview"
+        android:textColor="@color/main_text_color" />
+
+</LinearLayout>

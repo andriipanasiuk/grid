@@ -1,0 +1,9 @@
+<resources>
+
+    <dimen name="main_activity_padding">32dp</dimen>
+    <dimen name="main_activity_margin_between_items">32dp</dimen>
+    <dimen name="main_toggle_button_padding">48dp</dimen>
+    <dimen name="main_textsize">20sp</dimen>
+    <dimen name="main_minwidth_edittext_spinner">100dp</dimen>
+
+</resources>

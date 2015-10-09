@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Grid</string>
+    <string name="main_showgrid_button">Показать сетку</string>
+    <string name="main_hidegrid_button">Скрыть сетку</string>
+    <string name="main_gridsize_textview">Шаг сетки</string>
+    <string name="main_opacity_textview">Прозрачность</string>
+    <string name="main_draganddrop_textview">Drag&#038;Drop</string>
+    <string name="notification_title_grid_step_size" formatted="false">Шаг сетки: %s %s</string>
+    <string name="notification_message_settings">Настройки</string>
+    <string name="notification_ticker_grid_on">Сетка включена</string>
+    
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="default_drag_size_value">56</integer>
+    <string name="default_drag_size_units">dp</string>
+
+</resources>

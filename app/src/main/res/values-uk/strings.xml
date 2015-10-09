@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Grid</string>
+    <string name="main_showgrid_button">Показати сітку</string>
+    <string name="main_hidegrid_button">Приховати сітку</string>
+    <string name="main_gridsize_textview">Крок сітки</string>
+    <string name="main_opacity_textview">Прозорість</string>
+    <string name="main_draganddrop_textview">Drag&#038;Drop</string>
+    <string name="notification_title_grid_step_size" formatted="false">Крок сітки: %s %s</string>
+    <string name="notification_message_settings">Налаштування</string>
+    <string name="notification_ticker_grid_on">Сітка увімкнена</string>
+    
+
+</resources>

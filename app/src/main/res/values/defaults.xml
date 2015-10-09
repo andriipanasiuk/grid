@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="default_grid_step_value">48</integer>
+    <string name="default_grid_step_units">dp</string>
+    <integer name="default_grid_line_width_value">1</integer>
+    <string name="default_grid_line_width_units">px</string>
+    <color name="default_grid_line_color">#2cb2e4</color>
+    
+    <bool name="default_drag_enabled">true</bool>
+    <color name="default_drag_color">#ffff00</color>
+    <integer name="default_drag_size_value">48</integer>
+    <string name="default_drag_size_units">dp</string>
+
+    <integer name="default_opacity">128</integer>
+
+</resources>
