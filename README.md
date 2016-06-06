@@ -1,5 +1,7 @@
+[![CircleCI](https://circleci.com/gh/andriipanasiuk/grid.svg?style=svg)](https://circleci.com/gh/andriipanasiuk/grid)
 # grid
 Android application that shows px/dp grid over other applications
+
 ##Play Store
 Application is published on the Play Store named Grid. You can see it by [link](https://play.google.com/store/apps/details?id=com.grandtorino.grid).
 ##Features
